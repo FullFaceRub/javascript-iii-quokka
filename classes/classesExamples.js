@@ -10,6 +10,8 @@ class Animal{
     }
 }
 
+var lion = new Animal("roar","lion")
+
 var genny = new Animal("hhoooof", "giraffe")
 var zenny = new Animal("whoop whoop", "zebra")
 var lenny = new Animal("good day to you sir", "lion")
@@ -59,6 +61,7 @@ class Movie{
         this.year = year;
         this.director = director;
         this.ratings = []
+        this.averageScore = 
     }
 
     addRating(score){

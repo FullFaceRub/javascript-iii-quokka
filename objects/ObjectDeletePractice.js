@@ -7,7 +7,17 @@ var mydates = {
     spots: false
 }
 
+delete mydates["spots"]
+mydates;
+
 //delete spots from mydates
 
+
+for (var x in mydates){
+    if (!mydates[x]){
+        delete mydates[x];
+    }
+}
+mydates;
 
 //loop over my dates and delete all properties with a falsy value
